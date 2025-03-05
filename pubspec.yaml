@@ -1,0 +1,35 @@
+name: zoo_app
+description: "A new Flutter project."
+publish_to: 'none' # Evita publicación accidental en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  animate_do: ^3.0.2
+  lottie: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Corrección: Aquí deben ir los assets
+  assets:
+    - assets/lottie/fireworks.json
+    - assets/lottie/animals.json
+    - assets/lottie/zoo_background.json
+    - assets/lottie/animals_background.json
+    - assets/lottie/empy_list.json
+    - assets/lottie/register_background.json
